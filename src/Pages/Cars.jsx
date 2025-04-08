@@ -3,7 +3,7 @@ import img1 from "../images/fera.jpg";
 import img2 from "../images/corvette.jpg";
 import img3 from "../images/bentley.jpg";
 import img4 from "../images/big bentley.jpg";
-import img5 from "../images/Urus.jpg";
+import img5 from "../images/urus.jpg";
 import img6 from "../images/Prado.jpg";
 import img7 from "../images/RR.jpg";
 import img8 from "../images/Audi.jpg";
