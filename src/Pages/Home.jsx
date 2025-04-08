@@ -12,6 +12,7 @@ import img2 from "../images/corvette.jpg";
 import img3 from "../images/bentley.jpg";
 import img4 from "../images/big bentley.jpg";
 import img5 from "../images/cyber.jpg";
+import { Link } from "react-router-dom";
 
 // Car data with local image imports
 const cars = [
@@ -29,9 +30,12 @@ const Home = () => {
         <section className="hero text-white text-center">
           <h1 className="display-4 fw-bold">Welcome to Polanco Cars</h1>
           <p className="lead">Luxury at its Finest</p>
-          <button className="btn explore-btn">
-            Explore Now <FaArrowRight className="ms-2" />
-          </button>
+          <Link to="/car">
+            {" "}
+            <button className="btn explore-btn">
+              Explore Now <FaArrowRight className="ms-2" />
+            </button>
+          </Link>
         </section>
 
         <section className="luxury-cars container py-5">
