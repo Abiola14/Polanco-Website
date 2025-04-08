@@ -90,7 +90,7 @@ function Footer() {
             {/* Copyright */}
             <div className="col-md-4">
               <p className="mb-0">
-                &copy; 2025 Luxury Cars | All Rights Reserved
+                &copy; 2025 Polnaco Exotic Cars | All Rights Reserved
               </p>
             </div>
           </div>
