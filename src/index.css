@@ -1,0 +1,232 @@
+/* Home.css */
+
+.home-container {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(184, 157, 41, 0.4)
+    ),
+    url("https://images.unsplash.com/photo-1597000191013-956edaf1f71d?auto=format&fit=crop&w=1470&q=80")
+      no-repeat center center/cover;
+  padding: 100px 20px;
+}
+
+.explore-btn {
+  background-color: #b89d29;
+  color: #000;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.luxury-cars h2 {
+  color: #b89d29;
+  font-weight: bold;
+}
+
+.car-card {
+  background-color: #1c1c1c;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.car-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.text-gold {
+  color: #b89d29;
+}
+
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(184, 157, 41, 0.3)
+    ),
+    url("https://images.unsplash.com/photo-1597000191013-956edaf1f71d?auto=format&fit=crop&w=1400&q=80")
+      center/cover no-repeat;
+  padding: 100px 20px;
+}
+
+.explore-btn {
+  background-color: #b89d29;
+  color: #000;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.car-card {
+  background-color: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.spotlight {
+  background-color: #111;
+}
+
+.benefits {
+  background-color: #000;
+}
+
+.benefits .icon {
+  font-size: 3rem;
+  color: #b89d29;
+}
+
+.testimonial-section {
+  background: #1a1a1a;
+  font-style: italic;
+}
+
+.blockquote-footer {
+  color: #b89d29;
+}
+/* Container for each car card */
+.car-card {
+  background-color: #111;
+  padding: 15px;
+  border-radius: 20px;
+  height: 100%;
+  transition: background 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+.car-gallery {
+  gap: 2rem;
+}
+
+.car-card-custom {
+  background-color: #111;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.car-card-custom:hover {
+  transform: translateY(-10px);
+}
+
+.car-card-custom img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #b89d29;
+}
+
+.car-title {
+  color: white;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gold text utility */
+.text-gold {
+  color: #b89d29;
+}
+
+/* Icon Styling */
+.icon {
+  font-size: 2.2rem;
+  color: #b89d29;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.explore-btn {
+  background-color: #b89d29;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #d4ae3f;
+  color: #000;
+}
+
+.spotlight img {
+  width: 100%;
+  max-width: 600px; /* Restrict width */
+  max-height: 650px; /* Control the height */
+  object-fit: cover; /* Keeps the aspect ratio and crops if necessary */
+  border-radius: 15px;
+  margin: 0 auto; /* Centers the image */
+}
+
+.spotlight h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.spotlight h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.spotlight p {
+  font-size: 1rem;
+  color: #b89d29;
+  font-style: italic;
+}
+/* Maintenance Tips Section */
+.maintenance-tips {
+  background-color: #0e1a2b; /* Luxury deep navy blue */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.maintenance-tips .card {
+  border: none;
+  background-color: #1b2738; /* Slight contrast from background */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.maintenance-tips .icon {
+  font-size: 40px;
+  color: #b89d29; /* gold color */
+}
+
+.maintenance-tips .card-title {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.maintenance-tips .card-text {
+  font-size: 1rem;
+  margin-top: 10px;
+}

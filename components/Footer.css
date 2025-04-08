@@ -1,0 +1,85 @@
+footer a {
+  color: white; /* Default white color for links */
+  transition: color 0.3s ease;
+}
+.big-footer {
+  background-color: #15130b;
+}
+
+footer a:hover {
+  color: gold; /* Luxurious gold hover effect */
+}
+
+/* Style for Quick Links */
+footer .text-white {
+  opacity: 0.9;
+}
+
+footer .text-white:hover {
+  opacity: 1;
+}
+
+footer h5 {
+  color: gold; /* Gold for a luxury touch */
+}
+
+footer p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Social Media Links Styling */
+.social-link {
+  color: white;
+  margin: 10px 0; /* Space between icons for vertical alignment */
+  transition: color 0.3s ease;
+  font-size: 2rem; /* Increase size for hover effect */
+  margin-left: 20px;
+}
+
+.social-link:hover {
+  color: gold; /* Gold hover effect for icons */
+}
+
+/* Quick Links Styling */
+.quick-link {
+  color: white; /* Default white text */
+  margin-right: 15px; /* Margin between links */
+  padding: 5px 10px; /* Padding for hover area */
+  border-radius: 2px; /* Subtle rounded corners */
+  transition: color 0.3s ease-in-out, transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Drop shadow for hover effect */
+  text-decoration: none; /* Remove underline for links */
+}
+
+/* Hover Effect */
+.quick-link:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  color: #ffcc00;
+  text-decoration: none; /* Ensure underline doesn't appear on hover */
+}
+
+.list-inline-item {
+  margin-bottom: 10px; /* Adds vertical spacing if needed for larger screens */
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #b89d29;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: white;
+  color: #b89d29;
+}

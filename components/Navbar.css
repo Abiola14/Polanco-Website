@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+/* Styling for the logo and brand text */
+.logo {
+  margin-right: 8px; /* Adds space between the logo and text */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #ffcc00; /* Golden text for a luxury feel */
+}
+
+/* Hover effect for the navbar links */
+.nav-link {
+  font-size: 1.1rem;
+  color: white;
+  margin-left: 10px;
+  transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Golden color on hover */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Active link effect for 'Home' */
+.nav-link.active {
+  color: #ffcc00; /* Highlight 'Home' by default */
+  border-bottom: 2px solid #ffcc00;
+}

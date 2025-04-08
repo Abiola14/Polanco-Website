@@ -1,0 +1,283 @@
+/* General Styling */
+.about-page {
+  font-family: "Lora", serif;
+  background-color: #ffffff;
+  color: #333;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #b89d29;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* ====== Intro Section with Background Image ====== */
+.intro-section {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 100px 20px;
+}
+
+.intro-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Adjust transparency */
+}
+
+.intro-section h2,
+.intro-section p {
+  position: relative;
+  z-index: 1;
+  color: #b89d29;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+/* ====== Vision & Mission Section ====== */
+.vision-mission-section {
+  background: linear-gradient(to right, #f5f5f5, #ffffff);
+  padding: 4rem 1rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-mission-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Adds space between vision & mission */
+}
+
+.vision-box,
+.mission-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 45%; /* Ensures they are side by side */
+  min-width: 300px; /* Prevents collapsing on smaller screens */
+}
+
+.vision-box:hover,
+.mission-box:hover {
+  transform: scale(1.05);
+}
+
+.vision-icon,
+.mission-icon {
+  font-size: 3rem;
+  color: #b89d29;
+  margin-bottom: 1rem;
+}
+
+.vision-mission-section h3 {
+  color: #b89d29;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.vision-mission-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* Add spacing between the vision and mission boxes */
+.vision-box {
+  margin-right: 2rem; /* Adds space between the vision and mission box */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .vision-mission-section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .vision-mission-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .vision-mission-container {
+    align-items: center;
+  }
+
+  .vision-box,
+  .mission-box {
+    width: 100%; /* Makes them full-width on small screens */
+    margin-right: 0; /* Removes extra space between vision and mission boxes */
+    margin-bottom: 2rem; /* Adds space between boxes when stacked */
+  }
+
+  .intro-text {
+    font-size: 1.1rem;
+  }
+
+  .services-section {
+    padding: 2rem;
+  }
+
+  .services-list {
+    flex-direction: column; /* Stack the services vertically on smaller screens */
+  }
+
+  .service-item {
+    font-size: 1rem;
+  }
+
+  .faq-section {
+    padding: 2rem;
+  }
+
+  .team-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cta-text {
+    font-size: 1.5rem;
+  }
+
+  /* Reduce padding in intro section for small screens */
+  .intro-section {
+    padding: 80px 20px;
+  }
+}
+
+/* ====== Our Services Section with Black Background and Horizontal Line ====== */
+.services-section {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.services-section h2 {
+  color: #b89d29;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem; /* Space between service items */
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.service-icon {
+  color: #b89d29;
+  font-size: 1.6rem;
+  margin-right: 1rem; /* Space between icon and text */
+}
+
+.service-item p {
+  margin: 0; /* No extra margin around text */
+}
+
+/* ====== FAQ ====== */
+.faq-section {
+  background-color: #f5f5f5; /* Light background for the section */
+  padding: 3rem 1rem;
+}
+
+.faq-f {
+  color: #b89d29;
+}
+
+.faq-item {
+  background-color: #ffffff; /* White background for each FAQ item */
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 10px; /* Rounded corners for a sleek look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for a lifted look */
+}
+
+.faq-question {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:hover {
+  color: #b89d29; /* Change color on hover for a luxury feel */
+}
+
+.faq-answer {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.faq-icon.open {
+  transform: rotate(180deg); /* Rotate the icon when the FAQ is open */
+}
+
+/* ====== Horizontal Line Styling for Each Service Item ====== */
+.service-item + .service-item {
+  border-top: 1px solid #fff; /* White horizontal line between items */
+  padding-top: 0.6rem; /* Space before next service */
+  margin-top: 0.9rem;
+}
+
+/* ====== Responsive Design for Larger Screens ====== */
+@media (min-width: 1200px) {
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .cta-button {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+  }
+
+  /* Increase padding for larger screens */
+  .services-section,
+  .faq-section {
+    padding: 4rem 1rem;
+  }
+
+  .services-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .service-item {
+    width: 30%; /* Ensure items are spaced well on larger screens */
+  }
+}

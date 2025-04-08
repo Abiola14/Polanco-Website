@@ -1,0 +1,161 @@
+/* Contact Page Styling */
+.new-contact-section {
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+}
+
+.contact-heading {
+  font-weight: 700;
+  color: #000;
+  border-bottom: 3px solid #b89d29;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 2rem;
+  text-align: center; /* Centering heading on all screen sizes */
+}
+
+.contact-card,
+.contact-info-box {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-gold {
+  color: #b89d29;
+  text-align: center;
+}
+
+.phone {
+  text-align: center;
+}
+
+.send-btn {
+  background-color: #b89d29;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Full width button on smaller screens */
+}
+
+.send-btn:hover {
+  background-color: #a88a24;
+}
+
+.social-icons-wrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-icons-wrapper .icon {
+  font-size: 1.5rem;
+  color: black;
+  margin: 0 8px;
+  transition: color 0.3s;
+}
+
+.social-icons-wrapper .icon:hover {
+  color: #b89d29;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .new-contact-section {
+    padding: 2rem 1rem;
+  }
+
+  .contact-card,
+  .contact-info-box {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-heading {
+    font-size: 1.8rem;
+  }
+
+  .send-btn {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .social-icons-wrapper .icon {
+    font-size: 1.2rem;
+    margin: 0 5px;
+  }
+
+  /* Adjust map for mobile screens */
+  .map-container iframe {
+    height: 300px;
+  }
+
+  /* Stack the columns vertically */
+  .col-md-7,
+  .col-md-5 {
+    width: 100%;
+  }
+}
+
+/* Responsive Design for Tablets (Medium Screens) */
+@media (max-width: 1024px) {
+  .contact-card,
+  .contact-info-box {
+    padding: 25px;
+    width: 100%;
+  }
+
+  .contact-heading {
+    font-size: 2rem;
+  }
+
+  .send-btn {
+    font-size: 1.1rem;
+  }
+
+  .social-icons-wrapper .icon {
+    font-size: 1.4rem;
+  }
+
+  .map-container iframe {
+    height: 350px;
+  }
+}
+
+/* Responsive Design for Large Screens */
+@media (min-width: 1200px) {
+  .new-contact-section {
+    padding: 3rem 5%;
+  }
+
+  .contact-card,
+  .contact-info-box {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem;
+    padding: 30px;
+  }
+
+  .contact-heading {
+    font-size: 2.5rem;
+  }
+
+  .send-btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .social-icons-wrapper .icon {
+    font-size: 1.8rem;
+  }
+
+  .map-container iframe {
+    height: 400px;
+  }
+}
